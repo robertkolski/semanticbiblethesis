@@ -1,0 +1,49 @@
+<!DOCTYPE rdf:RDF [
+  <!ENTITY owl "http://www.w3.org/2002/07/owl#">]>
+ <rdf:RDF xmlns:owl ="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf ="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+ <owl:Ontology rdf:about="">
+  <rdfs:label>Ontology for bible</rdfs:label>
+  <rdfs:comment>The ontology for identifying people and their families</rdfs:comment>
+  </owl:Ontology>
+ <owl:Class rdf:ID="SpiritualSight" />
+ <owl:Class rdf:ID="Vision">
+  <rdfs:subClassOf rdf:resource="#SpiritualSight" />
+ </owl:Class>
+ <owl:Class rdf:ID="Dream">
+  <rdfs:subClassOf rdf:resource="#SpiritualSight" />
+ </owl:Class>
+ <owl:DatatypeProperty rdf:ID="whatWasSeen" />
+ <owl:ObjectProperty rdf:ID="seenBy" />
+ <owl:DatatypeProperty rdf:ID="interpretation" />
+ <owl:ObjectProperty rdf:ID="interpretedBy" />
+ <owl:Class rdf:ID="Person" />
+ <owl:Class rdf:ID="Man" />
+  <rdfs:subClassOf rdf:resource="#Person" />
+ </owl:Class>
+ <owl:Class rdf:ID="Woman" />
+  <rdfs:subClassOf rdf:resource="#Person" />
+ </owl:Class>
+ <owl:DatatypeProperty rdf:ID="name" />
+ <owl:DatatypeProperty rdf:ID="gender" />
+ <owl:ObjectProperty rdf:ID="hasChild" />
+ <owl:ObjectProperty rdf:ID="hasDaughter">
+  <rdfs:subPropertyOf rdf:resource="#hasChild" />
+ </owl:ObjectProperty>
+ <owl:ObjectProperty rdf:ID="hasSon">
+  <rdfs:subPropertyOf rdf:resource="#hasChild" />
+ </owl:ObjectProperty>
+ <owl:DatatypeProperty rdf:ID="age" />
+ <owl:ObjectProperty rdf:ID="isParentOf">
+  <owl:inverseOf rdf:resource="#isChildOf" />
+ </owl:ObjectProperty>
+ <owl:ObjectProperty rdf:ID="isTallerThan">
+  <rdf:type rdf:resource="&owl;TransitiveProperty" />
+ </owl:ObjectProperty>
+ <owl:ObjectProperty rdf:ID="isFriendOf">
+  <rdf:type rdf:resource="&owl;SymmetricProperty" />
+ </owl:ObjectProperty>
+ <owl:ObjectProperty rdf:ID="hadVision" />
+ <owl:ObjectProperty rdf:ID="hadDream" />
+ </rdf:RDF>

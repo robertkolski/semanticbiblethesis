@@ -1,0 +1,23 @@
+<!DOCTYPE rdf:RDF [
+  <!ENTITY owl "http://www.w3.org/2002/07/owl#">]>
+ <rdf:RDF xmlns:owl ="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf ="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+ <owl:Ontology rdf:about="">
+  <rdfs:label>My bible ontology</rdfs:label>
+  <rdfs:comment>A bible ontology</rdfs:comment>
+  </owl:Ontology>
+ <owl:Class rdf:ID="BibleEdition" />
+ <owl:Class rdf:ID="BibleBook" />
+ <owl:Class rdf:ID="BibleChapter" />
+ <owl:Class rdf:ID="BibleVerse" />
+ <owl:Class rdf:ID="BibleWord" />
+ <owl:ObjectProperty rdf:ID="name" />
+ <owl:ObjectProperty rdf:ID="number" />
+ <owl:ObjectProperty rdf:ID="text" />
+ <owl:ObjectProperty rdf:ID="hasBibleBook" />
+ <owl:ObjectProperty rdf:ID="hasBibleChapter" />
+ <owl:ObjectProperty rdf:ID="hasBibleVerse" />
+ <owl:ObjectProperty rdf:ID="hasBibleWord" />
+ <owl:ObjectProperty rdf:ID="strongNumber" />
+</rdf:RDF>

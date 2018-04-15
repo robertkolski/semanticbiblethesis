@@ -1,0 +1,965 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <person:Person rdf:ID="mehujael" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Mehujael</person:name>
+    <person:hasChild rdf:resource="#methusael" />
+  </person:Person>
+  <person:Person rdf:ID="methusael" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Methusael</person:name>
+    <person:hasChild rdf:resource="#lamech" />
+  </person:Person>
+  <person:Person rdf:ID="lamech" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Lamech</person:name>
+  </person:Person>
+  <person:Person rdf:ID="irad" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Irad</person:name>
+    <person:hasChild rdf:resource="#mehujael" />
+  </person:Person>
+  <person:Person rdf:ID="enoch" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Enoch</person:name>
+    <person:hasChild rdf:resource="#irad" />
+  </person:Person>
+  <person:Person rdf:ID="seth" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Seth</person:name>
+  </person:Person>
+  <person:Person rdf:ID="enos" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Enos</person:name>
+  </person:Person>
+  <person:Person rdf:ID="cainan" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Cainan</person:name>
+  </person:Person>
+  <person:Person rdf:ID="mahalaleel" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Mahalaleel</person:name>
+  </person:Person>
+  <person:Person rdf:ID="jared" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Jared</person:name>
+  </person:Person>
+  <person:Person rdf:ID="methuselah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Methuselah</person:name>
+  </person:Person>
+  <person:Person rdf:ID="noah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Noah</person:name>
+    <person:hasChild rdf:resource="#shem" />
+  </person:Person>
+  <person:Person rdf:ID="shem" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Shem</person:name>
+  </person:Person>
+  <person:Person rdf:ID="ham" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Ham</person:name>
+  </person:Person>
+  <person:Person rdf:ID="japheth" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Japheth</person:name>
+  </person:Person>
+  <person:Person rdf:ID="nimrod" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Nimrod</person:name>
+  </person:Person>
+  <person:Person rdf:ID="cush" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Cush</person:name>
+    <person:hasChild rdf:resource="#nimrod" />
+  </person:Person>
+  <person:Person rdf:ID="ludim" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Ludim</person:name>
+  </person:Person>
+  <person:Person rdf:ID="mizraim" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Mizraim</person:name>
+    <person:hasChild rdf:resource="#ludim" />
+  </person:Person>
+  <person:Person rdf:ID="anamim" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Anamim</person:name>
+  </person:Person>
+  <person:Person rdf:ID="lehabim" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Lehabim</person:name>
+  </person:Person>
+  <person:Person rdf:ID="naphtuhim" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Naphtuhim</person:name>
+  </person:Person>
+  <person:Person rdf:ID="sidon" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Sidon</person:name>
+  </person:Person>
+  <person:Person rdf:ID="canaan" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Canaan</person:name>
+    <person:hasChild rdf:resource="#sidon" />
+    <person:hasChild rdf:resource="#zidon" />
+  </person:Person>
+  <person:Person rdf:ID="salah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Salah</person:name>
+    <person:hasChild rdf:resource="#eber" />
+  </person:Person>
+  <person:Person rdf:ID="eber" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Eber</person:name>
+  </person:Person>
+  <person:Person rdf:ID="arphaxad" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Arphaxad</person:name>
+    <person:hasChild rdf:resource="#salah" />
+    <person:hasChild rdf:resource="#shelah" />
+  </person:Person>
+  <person:Person rdf:ID="almodad" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Almodad</person:name>
+  </person:Person>
+  <person:Person rdf:ID="joktan" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Joktan</person:name>
+    <person:hasChild rdf:resource="#almodad" />
+  </person:Person>
+  <person:Person rdf:ID="sheleph" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Sheleph</person:name>
+  </person:Person>
+  <person:Person rdf:ID="hazarmaveth" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Hazarmaveth</person:name>
+  </person:Person>
+  <person:Person rdf:ID="jerah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Jerah</person:name>
+  </person:Person>
+  <person:Person rdf:ID="peleg" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Peleg</person:name>
+  </person:Person>
+  <person:Person rdf:ID="reu" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Reu</person:name>
+  </person:Person>
+  <person:Person rdf:ID="serug" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Serug</person:name>
+  </person:Person>
+  <person:Person rdf:ID="nahor" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Nahor</person:name>
+  </person:Person>
+  <person:Person rdf:ID="terah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Terah</person:name>
+    <person:hasChild rdf:resource="#abram" />
+  </person:Person>
+  <person:Person rdf:ID="abram" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Abram</person:name>
+  </person:Person>
+  <person:Person rdf:ID="haran" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Haran</person:name>
+    <person:hasChild rdf:resource="#lot" />
+    <person:hasChild rdf:resource="#gazez" />
+  </person:Person>
+  <person:Person rdf:ID="lot" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Lot</person:name>
+  </person:Person>
+  <person:Person rdf:ID="ishmael" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Ishmael</person:name>
+  </person:Person>
+  <person:Person rdf:ID="sarai" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Sarai</person:name>
+  </person:Person>
+  <person:Person rdf:ID="isaac" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Isaac</person:name>
+    <person:hasChild rdf:resource="#jacob" />
+  </person:Person>
+  <person:Person rdf:ID="moab" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Moab</person:name>
+  </person:Person>
+  <person:Person rdf:ID="benammi" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Benammi</person:name>
+  </person:Person>
+  <person:Person rdf:ID="rebekah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Rebekah</person:name>
+  </person:Person>
+  <person:Person rdf:ID="bethuel" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Bethuel</person:name>
+    <person:hasChild rdf:resource="#rebekah" />
+  </person:Person>
+  <person:Person rdf:ID="sheba" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Sheba</person:name>
+  </person:Person>
+  <person:Person rdf:ID="jokshan" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Jokshan</person:name>
+    <person:hasChild rdf:resource="#sheba" />
+  </person:Person>
+  <person:Person rdf:ID="dedan" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Dedan</person:name>
+  </person:Person>
+  <person:Person rdf:ID="abraham" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Abraham</person:name>
+    <person:hasChild rdf:resource="#isaac" />
+  </person:Person>
+  <person:Person rdf:ID="esau" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Esau</person:name>
+  </person:Person>
+  <person:Person rdf:ID="reuben" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Reuben</person:name>
+  </person:Person>
+  <person:Person rdf:ID="simeon" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Simeon</person:name>
+  </person:Person>
+  <person:Person rdf:ID="judah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Judah</person:name>
+  </person:Person>
+  <person:Person rdf:ID="naphtali" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Naphtali</person:name>
+  </person:Person>
+  <person:Person rdf:ID="gad" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Gad</person:name>
+  </person:Person>
+  <person:Person rdf:ID="asher" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Asher</person:name>
+  </person:Person>
+  <person:Person rdf:ID="issachar" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Issachar</person:name>
+  </person:Person>
+  <person:Person rdf:ID="zebulun" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Zebulun</person:name>
+  </person:Person>
+  <person:Person rdf:ID="dinah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Dinah</person:name>
+  </person:Person>
+  <person:Person rdf:ID="joseph" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Joseph</person:name>
+  </person:Person>
+  <person:Person rdf:ID="israel" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Israel</person:name>
+  </person:Person>
+  <person:Person rdf:ID="benoni" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Benoni</person:name>
+  </person:Person>
+  <person:Person rdf:ID="er" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Er</person:name>
+  </person:Person>
+  <person:Person rdf:ID="onan" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Onan</person:name>
+  </person:Person>
+  <person:Person rdf:ID="shelah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Shelah</person:name>
+    <person:hasChild rdf:resource="#eber" />
+  </person:Person>
+  <person:Person rdf:ID="moses" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Moses</person:name>
+  </person:Person>
+  <person:Person rdf:ID="gershom" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Gershom</person:name>
+  </person:Person>
+  <person:Person rdf:ID="gilead" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Gilead</person:name>
+    <person:hasChild rdf:resource="#jephthah" />
+  </person:Person>
+  <person:Person rdf:ID="machir" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Machir</person:name>
+    <person:hasChild rdf:resource="#gilead" />
+  </person:Person>
+  <person:Person rdf:ID="amram" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Amram</person:name>
+  </person:Person>
+  <person:Person rdf:ID="kohath" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Kohath</person:name>
+    <person:hasChild rdf:resource="#amram" />
+  </person:Person>
+  <person:Person rdf:ID="aaron" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Aaron</person:name>
+    <person:hasChild rdf:resource="#nadab" />
+  </person:Person>
+  <person:Person rdf:ID="jephthah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Jephthah</person:name>
+  </person:Person>
+  <person:Person rdf:ID="samson" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Samson</person:name>
+  </person:Person>
+  <person:Person rdf:ID="obed" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Obed</person:name>
+    <person:hasChild rdf:resource="#jesse" />
+    <person:hasChild rdf:resource="#jehu" />
+  </person:Person>
+  <person:Person rdf:ID="hezron" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Hezron</person:name>
+    <person:hasChild rdf:resource="#ram" />
+  </person:Person>
+  <person:Person rdf:ID="pharez" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Pharez</person:name>
+    <person:hasChild rdf:resource="#hezron" />
+  </person:Person>
+  <person:Person rdf:ID="ram" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Ram</person:name>
+    <person:hasChild rdf:resource="#amminadab" />
+  </person:Person>
+  <person:Person rdf:ID="amminadab" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Amminadab</person:name>
+    <person:hasChild rdf:resource="#nahshon" />
+  </person:Person>
+  <person:Person rdf:ID="nahshon" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Nahshon</person:name>
+    <person:hasChild rdf:resource="#salmon" />
+    <person:hasChild rdf:resource="#salma" />
+  </person:Person>
+  <person:Person rdf:ID="salmon" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Salmon</person:name>
+    <person:hasChild rdf:resource="#boaz" />
+    <person:hasChild rdf:resource="#booz" />
+  </person:Person>
+  <person:Person rdf:ID="boaz" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Boaz</person:name>
+    <person:hasChild rdf:resource="#obed" />
+  </person:Person>
+  <person:Person rdf:ID="jesse" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Jesse</person:name>
+    <person:hasChild rdf:resource="#david" />
+  </person:Person>
+  <person:Person rdf:ID="david" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>David</person:name>
+  </person:Person>
+  <person:Person rdf:ID="samuel" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Samuel</person:name>
+  </person:Person>
+  <person:Person rdf:ID="solomon" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Solomon</person:name>
+    <person:hasChild rdf:resource="#roboam" />
+  </person:Person>
+  <person:Person rdf:ID="jedidiah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Jedidiah</person:name>
+  </person:Person>
+  <person:Person rdf:ID="zidon" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Zidon</person:name>
+  </person:Person>
+  <person:Person rdf:ID="prince" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>prince</person:name>
+  </person:Person>
+  <person:Person rdf:ID="salma" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Salma</person:name>
+    <person:hasChild rdf:resource="#boaz" />
+  </person:Person>
+  <person:Person rdf:ID="uri" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Uri</person:name>
+    <person:hasChild rdf:resource="#bezaleel" />
+  </person:Person>
+  <person:Person rdf:ID="bezaleel" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Bezaleel</person:name>
+  </person:Person>
+  <person:Person rdf:ID="hur" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Hur</person:name>
+    <person:hasChild rdf:resource="#uri" />
+  </person:Person>
+  <person:Person rdf:ID="jair" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Jair</person:name>
+  </person:Person>
+  <person:Person rdf:ID="segub" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Segub</person:name>
+    <person:hasChild rdf:resource="#jair" />
+  </person:Person>
+  <person:Person rdf:ID="nathan" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Nathan</person:name>
+    <person:hasChild rdf:resource="#zabad" />
+  </person:Person>
+  <person:Person rdf:ID="zabad" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Zabad</person:name>
+    <person:hasChild rdf:resource="#ephlal" />
+  </person:Person>
+  <person:Person rdf:ID="attai" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Attai</person:name>
+    <person:hasChild rdf:resource="#nathan" />
+  </person:Person>
+  <person:Person rdf:ID="ephlal" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Ephlal</person:name>
+    <person:hasChild rdf:resource="#obed" />
+  </person:Person>
+  <person:Person rdf:ID="jehu" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Jehu</person:name>
+    <person:hasChild rdf:resource="#azariah" />
+  </person:Person>
+  <person:Person rdf:ID="azariah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Azariah</person:name>
+    <person:hasChild rdf:resource="#helez" />
+    <person:hasChild rdf:resource="#johanan" />
+    <person:hasChild rdf:resource="#amariah" />
+    <person:hasChild rdf:resource="#seraiah" />
+  </person:Person>
+  <person:Person rdf:ID="helez" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Helez</person:name>
+    <person:hasChild rdf:resource="#eleasah" />
+  </person:Person>
+  <person:Person rdf:ID="eleasah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Eleasah</person:name>
+    <person:hasChild rdf:resource="#sisamai" />
+  </person:Person>
+  <person:Person rdf:ID="sisamai" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Sisamai</person:name>
+    <person:hasChild rdf:resource="#shallum" />
+  </person:Person>
+  <person:Person rdf:ID="shallum" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Shallum</person:name>
+    <person:hasChild rdf:resource="#jekamiah" />
+    <person:hasChild rdf:resource="#hilkiah" />
+  </person:Person>
+  <person:Person rdf:ID="jekamiah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Jekamiah</person:name>
+    <person:hasChild rdf:resource="#elishama" />
+  </person:Person>
+  <person:Person rdf:ID="elishama" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Elishama</person:name>
+  </person:Person>
+  <person:Person rdf:ID="raham" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Raham</person:name>
+  </person:Person>
+  <person:Person rdf:ID="shammai" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Shammai</person:name>
+  </person:Person>
+  <person:Person rdf:ID="shema" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Shema</person:name>
+    <person:hasChild rdf:resource="#raham" />
+  </person:Person>
+  <person:Person rdf:ID="rekem" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Rekem</person:name>
+    <person:hasChild rdf:resource="#shammai" />
+  </person:Person>
+  <person:Person rdf:ID="gazez" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Gazez</person:name>
+  </person:Person>
+  <person:Person rdf:ID="jahath" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Jahath</person:name>
+    <person:hasChild rdf:resource="#ahumai" />
+  </person:Person>
+  <person:Person rdf:ID="ahumai" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Ahumai</person:name>
+  </person:Person>
+  <person:Person rdf:ID="shobal" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Shobal</person:name>
+    <person:hasChild rdf:resource="#jahath" />
+  </person:Person>
+  <person:Person rdf:ID="lahad" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Lahad</person:name>
+  </person:Person>
+  <person:Person rdf:ID="anub" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Anub</person:name>
+  </person:Person>
+  <person:Person rdf:ID="coz" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Coz</person:name>
+    <person:hasChild rdf:resource="#anub" />
+  </person:Person>
+  <person:Person rdf:ID="zobebah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Zobebah</person:name>
+  </person:Person>
+  <person:Person rdf:ID="jabez" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Jabez</person:name>
+  </person:Person>
+  <person:Person rdf:ID="mehir" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Mehir</person:name>
+  </person:Person>
+  <person:Person rdf:ID="shuah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Shuah</person:name>
+    <person:hasChild rdf:resource="#mehir" />
+  </person:Person>
+  <person:Person rdf:ID="bethrapha" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Bethrapha</person:name>
+  </person:Person>
+  <person:Person rdf:ID="eshton" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Eshton</person:name>
+    <person:hasChild rdf:resource="#bethrapha" />
+  </person:Person>
+  <person:Person rdf:ID="paseah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Paseah</person:name>
+  </person:Person>
+  <person:Person rdf:ID="tehinnah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Tehinnah</person:name>
+  </person:Person>
+  <person:Person rdf:ID="ophrah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Ophrah</person:name>
+  </person:Person>
+  <person:Person rdf:ID="joab" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Joab</person:name>
+  </person:Person>
+  <person:Person rdf:ID="meonothai" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Meonothai</person:name>
+    <person:hasChild rdf:resource="#ophrah" />
+  </person:Person>
+  <person:Person rdf:ID="seraiah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Seraiah</person:name>
+    <person:hasChild rdf:resource="#joab" />
+    <person:hasChild rdf:resource="#jehozadak" />
+  </person:Person>
+  <person:Person rdf:ID="phinehas" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Phinehas</person:name>
+    <person:hasChild rdf:resource="#abishua" />
+  </person:Person>
+  <person:Person rdf:ID="abishua" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Abishua</person:name>
+    <person:hasChild rdf:resource="#bukki" />
+  </person:Person>
+  <person:Person rdf:ID="bukki" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Bukki</person:name>
+    <person:hasChild rdf:resource="#uzzi" />
+  </person:Person>
+  <person:Person rdf:ID="uzzi" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Uzzi</person:name>
+    <person:hasChild rdf:resource="#zerahiah" />
+  </person:Person>
+  <person:Person rdf:ID="zerahiah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Zerahiah</person:name>
+    <person:hasChild rdf:resource="#meraioth" />
+  </person:Person>
+  <person:Person rdf:ID="meraioth" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Meraioth</person:name>
+    <person:hasChild rdf:resource="#amariah" />
+  </person:Person>
+  <person:Person rdf:ID="amariah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Amariah</person:name>
+    <person:hasChild rdf:resource="#ahitub" />
+  </person:Person>
+  <person:Person rdf:ID="ahitub" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Ahitub</person:name>
+    <person:hasChild rdf:resource="#zadok" />
+  </person:Person>
+  <person:Person rdf:ID="zadok" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Zadok</person:name>
+    <person:hasChild rdf:resource="#ahimaaz" />
+    <person:hasChild rdf:resource="#shallum" />
+  </person:Person>
+  <person:Person rdf:ID="ahimaaz" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Ahimaaz</person:name>
+    <person:hasChild rdf:resource="#azariah" />
+  </person:Person>
+  <person:Person rdf:ID="johanan" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Johanan</person:name>
+    <person:hasChild rdf:resource="#azariah" />
+  </person:Person>
+  <person:Person rdf:ID="hilkiah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Hilkiah</person:name>
+    <person:hasChild rdf:resource="#azariah" />
+  </person:Person>
+  <person:Person rdf:ID="jehozadak" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Jehozadak</person:name>
+  </person:Person>
+  <person:Person rdf:ID="peresh" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Peresh</person:name>
+  </person:Person>
+  <person:Person rdf:ID="beriah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Beriah</person:name>
+  </person:Person>
+  <person:Person rdf:ID="japhlet" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Japhlet</person:name>
+  </person:Person>
+  <person:Person rdf:ID="heber" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Heber</person:name>
+    <person:hasChild rdf:resource="#japhlet" />
+  </person:Person>
+  <person:Person rdf:ID="shomer" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Shomer</person:name>
+  </person:Person>
+  <person:Person rdf:ID="hotham" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Hotham</person:name>
+  </person:Person>
+  <person:Person rdf:ID="shua" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Shua</person:name>
+  </person:Person>
+  <person:Person rdf:ID="bela" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Bela</person:name>
+  </person:Person>
+  <person:Person rdf:ID="benjamin" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Benjamin</person:name>
+    <person:hasChild rdf:resource="#bela" />
+  </person:Person>
+  <person:Person rdf:ID="uzza" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Uzza</person:name>
+  </person:Person>
+  <person:Person rdf:ID="ahihud" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Ahihud</person:name>
+  </person:Person>
+  <person:Person rdf:ID="shaharaim" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Shaharaim</person:name>
+  </person:Person>
+  <person:Person rdf:ID="abitub" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Abitub</person:name>
+  </person:Person>
+  <person:Person rdf:ID="elpaal" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Elpaal</person:name>
+  </person:Person>
+  <person:Person rdf:ID="shimeah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Shimeah</person:name>
+  </person:Person>
+  <person:Person rdf:ID="mikloth" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Mikloth</person:name>
+    <person:hasChild rdf:resource="#shimeah" />
+    <person:hasChild rdf:resource="#shimeam" />
+  </person:Person>
+  <person:Person rdf:ID="kish" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Kish</person:name>
+    <person:hasChild rdf:resource="#saul" />
+  </person:Person>
+  <person:Person rdf:ID="saul" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Saul</person:name>
+    <person:hasChild rdf:resource="#jonathan" />
+  </person:Person>
+  <person:Person rdf:ID="jonathan" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Jonathan</person:name>
+    <person:hasChild rdf:resource="#jaddua" />
+  </person:Person>
+  <person:Person rdf:ID="ner" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Ner</person:name>
+    <person:hasChild rdf:resource="#kish" />
+  </person:Person>
+  <person:Person rdf:ID="malchishua" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Malchishua</person:name>
+  </person:Person>
+  <person:Person rdf:ID="abinadab" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Abinadab</person:name>
+  </person:Person>
+  <person:Person rdf:ID="eshbaal" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Eshbaal</person:name>
+  </person:Person>
+  <person:Person rdf:ID="micah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Micah</person:name>
+  </person:Person>
+  <person:Person rdf:ID="meribbaal" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Meribbaal</person:name>
+    <person:hasChild rdf:resource="#micah" />
+  </person:Person>
+  <person:Person rdf:ID="jehoadah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Jehoadah</person:name>
+    <person:hasChild rdf:resource="#alemeth" />
+  </person:Person>
+  <person:Person rdf:ID="alemeth" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Alemeth</person:name>
+  </person:Person>
+  <person:Person rdf:ID="moza" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Moza</person:name>
+    <person:hasChild rdf:resource="#binea" />
+  </person:Person>
+  <person:Person rdf:ID="ahaz" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Ahaz</person:name>
+    <person:hasChild rdf:resource="#jehoadah" />
+    <person:hasChild rdf:resource="#jarah" />
+  </person:Person>
+  <person:Person rdf:ID="zimri" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Zimri</person:name>
+    <person:hasChild rdf:resource="#moza" />
+  </person:Person>
+  <person:Person rdf:ID="azmaveth" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Azmaveth</person:name>
+  </person:Person>
+  <person:Person rdf:ID="binea" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Binea</person:name>
+  </person:Person>
+  <person:Person rdf:ID="shimeam" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Shimeam</person:name>
+  </person:Person>
+  <person:Person rdf:ID="jarah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Jarah</person:name>
+    <person:hasChild rdf:resource="#alemeth" />
+  </person:Person>
+  <person:Person rdf:ID="joiakim" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Joiakim</person:name>
+  </person:Person>
+  <person:Person rdf:ID="eliashib" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Eliashib</person:name>
+    <person:hasChild rdf:resource="#joiada" />
+  </person:Person>
+  <person:Person rdf:ID="joiada" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Joiada</person:name>
+    <person:hasChild rdf:resource="#jonathan" />
+  </person:Person>
+  <person:Person rdf:ID="jeshua" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Jeshua</person:name>
+    <person:hasChild rdf:resource="#joiakim" />
+  </person:Person>
+  <person:Person rdf:ID="jaddua" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Jaddua</person:name>
+  </person:Person>
+  <person:Person rdf:ID="immanuel" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Immanuel</person:name>
+  </person:Person>
+  <person:Person rdf:ID="mahershalalhashbaz" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Mahershalalhashbaz</person:name>
+  </person:Person>
+  <person:Person rdf:ID="jezreel" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Jezreel</person:name>
+  </person:Person>
+  <person:Person rdf:ID="loruhamah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Loruhamah</person:name>
+  </person:Person>
+  <person:Person rdf:ID="loammi" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Loammi</person:name>
+  </person:Person>
+  <person:Person rdf:ID="jacob" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Jacob</person:name>
+    <person:hasChild rdf:resource="#judas" />
+    <person:hasChild rdf:resource="#joseph" />
+  </person:Person>
+  <person:Person rdf:ID="judas" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Judas</person:name>
+    <person:hasChild rdf:resource="#phares" />
+  </person:Person>
+  <person:Person rdf:ID="phares" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Phares</person:name>
+    <person:hasChild rdf:resource="#esrom" />
+  </person:Person>
+  <person:Person rdf:ID="esrom" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Esrom</person:name>
+    <person:hasChild rdf:resource="#aram" />
+  </person:Person>
+  <person:Person rdf:ID="aram" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Aram</person:name>
+    <person:hasChild rdf:resource="#aminadab" />
+  </person:Person>
+  <person:Person rdf:ID="aminadab" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Aminadab</person:name>
+    <person:hasChild rdf:resource="#naasson" />
+  </person:Person>
+  <person:Person rdf:ID="naasson" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Naasson</person:name>
+    <person:hasChild rdf:resource="#salmon" />
+  </person:Person>
+  <person:Person rdf:ID="booz" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Booz</person:name>
+    <person:hasChild rdf:resource="#obed" />
+  </person:Person>
+  <person:Person rdf:ID="roboam" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Roboam</person:name>
+    <person:hasChild rdf:resource="#abia" />
+  </person:Person>
+  <person:Person rdf:ID="abia" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Abia</person:name>
+    <person:hasChild rdf:resource="#asa" />
+  </person:Person>
+  <person:Person rdf:ID="asa" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Asa</person:name>
+    <person:hasChild rdf:resource="#josaphat" />
+  </person:Person>
+  <person:Person rdf:ID="josaphat" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Josaphat</person:name>
+    <person:hasChild rdf:resource="#joram" />
+  </person:Person>
+  <person:Person rdf:ID="joram" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Joram</person:name>
+    <person:hasChild rdf:resource="#ozias" />
+  </person:Person>
+  <person:Person rdf:ID="ozias" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Ozias</person:name>
+    <person:hasChild rdf:resource="#joatham" />
+  </person:Person>
+  <person:Person rdf:ID="joatham" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Joatham</person:name>
+    <person:hasChild rdf:resource="#achaz" />
+  </person:Person>
+  <person:Person rdf:ID="achaz" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Achaz</person:name>
+    <person:hasChild rdf:resource="#ezekias" />
+  </person:Person>
+  <person:Person rdf:ID="ezekias" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Ezekias</person:name>
+    <person:hasChild rdf:resource="#manasses" />
+  </person:Person>
+  <person:Person rdf:ID="manasses" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Manasses</person:name>
+    <person:hasChild rdf:resource="#amon" />
+  </person:Person>
+  <person:Person rdf:ID="amon" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Amon</person:name>
+    <person:hasChild rdf:resource="#josias" />
+  </person:Person>
+  <person:Person rdf:ID="josias" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Josias</person:name>
+    <person:hasChild rdf:resource="#jechonias" />
+  </person:Person>
+  <person:Person rdf:ID="jechonias" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Jechonias</person:name>
+    <person:hasChild rdf:resource="#salathiel" />
+  </person:Person>
+  <person:Person rdf:ID="salathiel" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Salathiel</person:name>
+    <person:hasChild rdf:resource="#zorobabel" />
+  </person:Person>
+  <person:Person rdf:ID="zorobabel" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Zorobabel</person:name>
+    <person:hasChild rdf:resource="#abiud" />
+  </person:Person>
+  <person:Person rdf:ID="abiud" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Abiud</person:name>
+    <person:hasChild rdf:resource="#eliakim" />
+  </person:Person>
+  <person:Person rdf:ID="eliakim" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Eliakim</person:name>
+    <person:hasChild rdf:resource="#azor" />
+  </person:Person>
+  <person:Person rdf:ID="azor" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Azor</person:name>
+    <person:hasChild rdf:resource="#sadoc" />
+  </person:Person>
+  <person:Person rdf:ID="sadoc" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Sadoc</person:name>
+    <person:hasChild rdf:resource="#achim" />
+  </person:Person>
+  <person:Person rdf:ID="achim" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Achim</person:name>
+    <person:hasChild rdf:resource="#eliud" />
+  </person:Person>
+  <person:Person rdf:ID="eliud" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Eliud</person:name>
+    <person:hasChild rdf:resource="#eleazar" />
+  </person:Person>
+  <person:Person rdf:ID="eleazar" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Eleazar</person:name>
+    <person:hasChild rdf:resource="#phinehas" />
+    <person:hasChild rdf:resource="#matthan" />
+  </person:Person>
+  <person:Person rdf:ID="matthan" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Matthan</person:name>
+    <person:hasChild rdf:resource="#jacob" />
+  </person:Person>
+  <person:Person rdf:ID="jesus" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>JESUS</person:name>
+  </person:Person>
+  <person:Person rdf:ID="emmanuel" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Emmanuel</person:name>
+  </person:Person>
+  <person:Person rdf:ID="john" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>John</person:name>
+  </person:Person>
+  <person:Person rdf:ID="son" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Son</person:name>
+  </person:Person>
+  <person:Person rdf:ID="adam" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Adam</person:name>
+    <person:hasChild rdf:resource="#cain" />
+  </person:Person>
+  <person:Person rdf:ID="eve" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Eve</person:name>
+    <person:hasChild rdf:resource="#cain" />
+  </person:Person>
+  <person:Person rdf:ID="elkanah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Elkanah</person:name>
+  </person:Person>
+  <person:Person rdf:ID="hannah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Hannah</person:name>
+  </person:Person>
+  <person:Person rdf:ID="cain" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Cain</person:name>
+    <person:hasChild rdf:resource="#enoch" />
+  </person:Person>
+  <person:Person rdf:ID="abel" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Abel</person:name>
+  </person:Person>
+  <person:Person rdf:ID="rahab" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Rahab</person:name>
+  </person:Person>
+  <person:Person rdf:ID="goliath" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Goliath</person:name>
+  </person:Person>
+  <person:Person rdf:ID="abiathar" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Abiathar</person:name>
+  </person:Person>
+  <person:Person rdf:ID="belteshazzar" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Belteshazzar</person:name>
+  </person:Person>
+  <person:Person rdf:ID="matthew" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Matthew</person:name>
+  </person:Person>
+  <person:Person rdf:ID="gethsemane" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Gethsemane</person:name>
+  </person:Person>
+  <person:Person rdf:ID="barabbas" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Barabbas</person:name>
+  </person:Person>
+  <person:Person rdf:ID="zacharias" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Zacharias</person:name>
+  </person:Person>
+  <person:Person rdf:ID="nazareth" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Nazareth</person:name>
+  </person:Person>
+  <person:Person rdf:ID="levi" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Levi</person:name>
+  </person:Person>
+  <person:Person rdf:ID="peter" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Peter</person:name>
+  </person:Person>
+  <person:Person rdf:ID="jairus" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Jairus</person:name>
+  </person:Person>
+  <person:Person rdf:ID="martha" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Martha</person:name>
+  </person:Person>
+  <person:Person rdf:ID="lazarus" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Lazarus</person:name>
+  </person:Person>
+  <person:Person rdf:ID="zacchaeus" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Zacchaeus</person:name>
+  </person:Person>
+  <person:Person rdf:ID="nicodemus" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Nicodemus</person:name>
+  </person:Person>
+  <person:Person rdf:ID="caiaphas" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Caiaphas</person:name>
+  </person:Person>
+  <person:Person rdf:ID="ananias" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Ananias</person:name>
+  </person:Person>
+  <person:Person rdf:ID="gamaliel" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Gamaliel</person:name>
+  </person:Person>
+  <person:Person rdf:ID="aeneas" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Aeneas</person:name>
+  </person:Person>
+  <person:Person rdf:ID="tabitha" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Tabitha</person:name>
+  </person:Person>
+  <person:Person rdf:ID="agabus" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Agabus</person:name>
+  </person:Person>
+  <person:Person rdf:ID="rhoda" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Rhoda</person:name>
+  </person:Person>
+  <person:Person rdf:ID="timotheus" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Timotheus</person:name>
+  </person:Person>
+  <person:Person rdf:ID="lydia" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Lydia</person:name>
+  </person:Person>
+  <person:Person rdf:ID="damaris" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Damaris</person:name>
+  </person:Person>
+  <person:Person rdf:ID="aquila" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Aquila</person:name>
+  </person:Person>
+  <person:Person rdf:ID="justus" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Justus</person:name>
+  </person:Person>
+  <person:Person rdf:ID="apollos" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Apollos</person:name>
+  </person:Person>
+  <person:Person rdf:ID="demetrius" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Demetrius</person:name>
+  </person:Person>
+  <person:Person rdf:ID="eutychus" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Eutychus</person:name>
+  </person:Person>
+  <person:Person rdf:ID="tertullus" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Tertullus</person:name>
+  </person:Person>
+  <person:Person rdf:ID="julius" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Julius</person:name>
+  </person:Person>
+  <person:Person rdf:ID="sarah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Sarah</person:name>
+  </person:Person>
+  <person:Person rdf:ID="peninnah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Peninnah</person:name>
+  </person:Person>
+  <person:Person rdf:ID="bathsheba" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Bathsheba</person:name>
+  </person:Person>
+  <person:Person rdf:ID="jezebel" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Jezebel</person:name>
+  </person:Person>
+  <person:Person rdf:ID="azubah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Azubah</person:name>
+  </person:Person>
+  <person:Person rdf:ID="eglah" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Eglah</person:name>
+  </person:Person>
+  <person:Person rdf:ID="hodesh" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Hodesh</person:name>
+  </person:Person>
+  <person:Person rdf:ID="zeresh" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Zeresh</person:name>
+  </person:Person>
+  <person:Person rdf:ID="sapphira" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Sapphira</person:name>
+  </person:Person>
+  <person:Person rdf:ID="priscilla" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Priscilla</person:name>
+  </person:Person>
+  <person:Person rdf:ID="drusilla" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Drusilla</person:name>
+  </person:Person>
+  <person:Person rdf:ID="nadab" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Nadab</person:name>
+  </person:Person>
+  <person:Person rdf:ID="mary" xmlns:person="http://www.rdfbible.com/dev/ns/person.owl">
+    <person:name>Mary</person:name>
+    <person:hasChild rdf:resource="#jesus" />
+  </person:Person>
+</rdf:RDF>

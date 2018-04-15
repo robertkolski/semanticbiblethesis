@@ -1,0 +1,33 @@
+<!DOCTYPE rdf:RDF [
+  <!ENTITY owl "http://www.w3.org/2002/07/owl#">]>
+ <rdf:RDF xmlns:owl ="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf ="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+ <owl:Ontology rdf:about="">
+  <rdfs:label>My Ontology</rdfs:label>
+  <rdfs:comment>An example ontology</rdfs:comment>
+  </owl:Ontology>
+ <owl:Class rdf:ID="Person" />
+ <owl:Class rdf:ID="Man" />
+  <rdfs:subClassOf rdf:resource="#Person" />
+ </owl:Class>
+ <owl:ObjectProperty rdf:ID="name" />
+ <owl:ObjectProperty rdf:ID="hasChild" />
+ <owl:ObjectProperty rdf:ID="hasDaughter">
+  <rdfs:subPropertyOf rdf:resource="#hasChild" />
+ </owl:ObjectProperty>
+ <owl:DatatypeProperty rdf:ID="age" />
+ <owl:ObjectProperty rdf:ID="isParentOf">
+  <owl:inverseOf rdf:resource="#isChildOf" />
+ </owl:ObjectProperty>
+ <owl:ObjectProperty rdf:ID="isTallerThan">
+  <rdf:type rdf:resource="&owl;TransitiveProperty" />
+ </owl:ObjectProperty>
+ <owl:ObjectProperty rdf:ID="isFriendOf">
+  <rdf:type rdf:resource="&owl;SymmetricProperty" />
+ </owl:ObjectProperty>
+ <owl:ObjectProperty rdf:ID="hasSSN">
+  <rdf:type rdf:resource="&owl;FunctionalProperty" />
+  <rdf:type rdf:resource="&owl;InverseFunctionalProperty" />
+ </owl:ObjectProperty>
+ </rdf:RDF>
